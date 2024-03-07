@@ -1,0 +1,10 @@
+def soma_numeros():
+    try:
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+        resultado = num1 + num2
+        print("A soma de", num1, "e", num2, "é igual a", resultado)
+    except ValueError:
+        print("Por favor, insira números válidos.")
+
+soma_numeros()
